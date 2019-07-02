@@ -58,13 +58,13 @@ class ThrowingTests: XCTestCase {
         let game = Game(name: "Exploding Monkeys")
         XCTAssertNoThrow(try game.play())
     }
-    
+    /*
     //Arroja si existe un error identificando de que tipo
     func testDeadStormRisingThrows() throws {
         let game = Game(name: "Dead Storm Rising")
         try game.play()
     }
-    
+    */
     //Revisa un juego que esta disponible
     func testCrashyPlaneDoesntThrow() throws {
         let game = Game(name: "CrashyPlane")

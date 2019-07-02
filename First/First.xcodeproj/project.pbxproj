@@ -14,6 +14,9 @@
 		C02453C322C5A2400059D352 /* DividerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02453C222C5A2400059D352 /* DividerTests.swift */; };
 		C02453C522C7E91C0059D352 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02453C422C7E91C0059D352 /* ThrowingTests.swift */; };
 		C02453C722C7EA440059D352 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02453C622C7EA440059D352 /* Game.swift */; };
+		C02453CF22C7FB8F0059D352 /* AsynchronousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02453CE22C7FB8F0059D352 /* AsynchronousTests.swift */; };
+		C02453D722C7FE120059D352 /* PrimeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02453D622C7FE120059D352 /* PrimeCalculator.swift */; };
+		C02453DC22CAD7280059D352 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02453DB22CAD7280059D352 /* User.swift */; };
 		C0399BF322C3F4AD001C9C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0399BF222C3F4AD001C9C6E /* AppDelegate.swift */; };
 		C0399BF522C3F4AD001C9C6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0399BF422C3F4AD001C9C6E /* ViewController.swift */; };
 		C0399BF822C3F4AD001C9C6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0399BF622C3F4AD001C9C6E /* Main.storyboard */; };
@@ -25,6 +28,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C02453D122C7FB8F0059D352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0399BE722C3F4AC001C9C6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0399BEE22C3F4AD001C9C6E;
+			remoteInfo = First;
+		};
 		C0399C0422C3F4DF001C9C6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C0399BE722C3F4AC001C9C6E /* Project object */;
@@ -49,6 +59,11 @@
 		C02453C222C5A2400059D352 /* DividerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerTests.swift; sourceTree = "<group>"; };
 		C02453C422C7E91C0059D352 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
 		C02453C622C7EA440059D352 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C02453CC22C7FB8E0059D352 /* AsynchronousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsynchronousTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C02453CE22C7FB8F0059D352 /* AsynchronousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousTests.swift; sourceTree = "<group>"; };
+		C02453D022C7FB8F0059D352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C02453D622C7FE120059D352 /* PrimeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeCalculator.swift; sourceTree = "<group>"; };
+		C02453DB22CAD7280059D352 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C0399BEF22C3F4AD001C9C6E /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0399BF222C3F4AD001C9C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0399BF422C3F4AD001C9C6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +81,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C02453C922C7FB8E0059D352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0399BEC22C3F4AD001C9C6E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,12 +112,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C02453CD22C7FB8F0059D352 /* AsynchronousTests */ = {
+			isa = PBXGroup;
+			children = (
+				C02453CE22C7FB8F0059D352 /* AsynchronousTests.swift */,
+				C02453D022C7FB8F0059D352 /* Info.plist */,
+			);
+			path = AsynchronousTests;
+			sourceTree = "<group>";
+		};
+		C02453D822CAD6430059D352 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C0399BF422C3F4AD001C9C6E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C02453D922CAD6570059D352 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C0399BF622C3F4AD001C9C6E /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C02453DA22CAD65E0059D352 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C02453D622C7FE120059D352 /* PrimeCalculator.swift */,
+				C02453C622C7EA440059D352 /* Game.swift */,
+				C02453C022C5A1A70059D352 /* Divider.swift */,
+				C02453BA22C5453A0059D352 /* Converter.swift */,
+				C0399C2022C3F55F001C9C6E /* Hater.swift */,
+				C02453DB22CAD7280059D352 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C0399BE622C3F4AC001C9C6E = {
 			isa = PBXGroup;
 			children = (
 				C0399BF122C3F4AD001C9C6E /* First */,
 				C0399C0622C3F4DF001C9C6E /* FirstTests */,
 				C0399C1122C3F4DF001C9C6E /* FirstUITests */,
+				C02453CD22C7FB8F0059D352 /* AsynchronousTests */,
 				C0399BF022C3F4AD001C9C6E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +167,7 @@
 				C0399BEF22C3F4AD001C9C6E /* First.app */,
 				C0399C0322C3F4DF001C9C6E /* FirstTests.xctest */,
 				C0399C0E22C3F4DF001C9C6E /* FirstUITests.xctest */,
+				C02453CC22C7FB8E0059D352 /* AsynchronousTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,16 +175,13 @@
 		C0399BF122C3F4AD001C9C6E /* First */ = {
 			isa = PBXGroup;
 			children = (
-				C0399C2022C3F55F001C9C6E /* Hater.swift */,
+				C02453DA22CAD65E0059D352 /* Model */,
+				C02453D922CAD6570059D352 /* View */,
+				C02453D822CAD6430059D352 /* Controller */,
 				C0399BF222C3F4AD001C9C6E /* AppDelegate.swift */,
-				C0399BF422C3F4AD001C9C6E /* ViewController.swift */,
-				C0399BF622C3F4AD001C9C6E /* Main.storyboard */,
 				C0399BF922C3F4DD001C9C6E /* Assets.xcassets */,
 				C0399BFB22C3F4DD001C9C6E /* LaunchScreen.storyboard */,
 				C0399BFE22C3F4DD001C9C6E /* Info.plist */,
-				C02453BA22C5453A0059D352 /* Converter.swift */,
-				C02453C022C5A1A70059D352 /* Divider.swift */,
-				C02453C622C7EA440059D352 /* Game.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -152,6 +211,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C02453CB22C7FB8E0059D352 /* AsynchronousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02453D322C7FB8F0059D352 /* Build configuration list for PBXNativeTarget "AsynchronousTests" */;
+			buildPhases = (
+				C02453C822C7FB8E0059D352 /* Sources */,
+				C02453C922C7FB8E0059D352 /* Frameworks */,
+				C02453CA22C7FB8E0059D352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C02453D222C7FB8F0059D352 /* PBXTargetDependency */,
+			);
+			name = AsynchronousTests;
+			productName = AsynchronousTests;
+			productReference = C02453CC22C7FB8E0059D352 /* AsynchronousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C0399BEE22C3F4AD001C9C6E /* First */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C0399C1722C3F4DF001C9C6E /* Build configuration list for PBXNativeTarget "First" */;
@@ -215,6 +292,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Álvaro Ávalos Hernández";
 				TargetAttributes = {
+					C02453CB22C7FB8E0059D352 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = C0399BEE22C3F4AD001C9C6E;
+					};
 					C0399BEE22C3F4AD001C9C6E = {
 						CreatedOnToolsVersion = 10.2.1;
 					};
@@ -244,11 +325,19 @@
 				C0399BEE22C3F4AD001C9C6E /* First */,
 				C0399C0222C3F4DF001C9C6E /* FirstTests */,
 				C0399C0D22C3F4DF001C9C6E /* FirstUITests */,
+				C02453CB22C7FB8E0059D352 /* AsynchronousTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C02453CA22C7FB8E0059D352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0399BED22C3F4AD001C9C6E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,6 +365,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C02453C822C7FB8E0059D352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C02453CF22C7FB8F0059D352 /* AsynchronousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C0399BEB22C3F4AD001C9C6E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,6 +380,8 @@
 				C0399BF522C3F4AD001C9C6E /* ViewController.swift in Sources */,
 				C02453C722C7EA440059D352 /* Game.swift in Sources */,
 				C0399BF322C3F4AD001C9C6E /* AppDelegate.swift in Sources */,
+				C02453D722C7FE120059D352 /* PrimeCalculator.swift in Sources */,
+				C02453DC22CAD7280059D352 /* User.swift in Sources */,
 				C02453C122C5A1A70059D352 /* Divider.swift in Sources */,
 				C02453BB22C5453A0059D352 /* Converter.swift in Sources */,
 				C0399C2122C3F55F001C9C6E /* Hater.swift in Sources */,
@@ -312,6 +411,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		C02453D222C7FB8F0059D352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0399BEE22C3F4AD001C9C6E /* First */;
+			targetProxy = C02453D122C7FB8F0059D352 /* PBXContainerItemProxy */;
+		};
 		C0399C0522C3F4DF001C9C6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C0399BEE22C3F4AD001C9C6E /* First */;
@@ -344,6 +448,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C02453D422C7FB8F0059D352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74Y36QZ2V7;
+				INFOPLIST_FILE = AsynchronousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avalosha.AsynchronousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First.app/First";
+			};
+			name = Debug;
+		};
+		C02453D522C7FB8F0059D352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 74Y36QZ2V7;
+				INFOPLIST_FILE = AsynchronousTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = avalosha.AsynchronousTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/First.app/First";
+			};
+			name = Release;
+		};
 		C0399C1522C3F4DF001C9C6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -581,6 +725,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C02453D322C7FB8F0059D352 /* Build configuration list for PBXNativeTarget "AsynchronousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C02453D422C7FB8F0059D352 /* Debug */,
+				C02453D522C7FB8F0059D352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C0399BEA22C3F4AC001C9C6E /* Build configuration list for PBXProject "First" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
